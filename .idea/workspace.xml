@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a2381f-a051-4173-a10d-b84abcae6cd5" name="Changes" comment="">
+    <list default="true" id="42a2381f-a051-4173-a10d-b84abcae6cd5" name="Changes" comment="Init">
       <change afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoProject/asgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DjangoProject/controllers/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DjangoProject/controllers/es_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,11 +105,24 @@
       <updated>1733728698054</updated>
       <workItem from="1733728699401" duration="153000" />
       <workItem from="1733728863330" duration="423000" />
-      <workItem from="1733730827498" duration="264000" />
+      <workItem from="1733730827498" duration="700000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1733731526824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733731526824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
