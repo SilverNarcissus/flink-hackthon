@@ -16,8 +16,17 @@ Including another URLconf
 """
 # from django.contrib import admin
 from django.urls import path
+from DjangoProject.controllers import general_controller
 from DjangoProject.controllers import es_controller
+from django.views.decorators.csrf import csrf_exempt
 
 urlpatterns = [
-    path("api/ping", es_controller.ping, name="ping"),
+    # general interface
+    path("api/ping", general_controller.ping, name="ping"),
+
+
+    # interface for event stream
+    path("api/es/execute_sql", csrf_exempt(es_controller.execute_sql), name="execute_sql"),
+
+    # interface for job management
 ]

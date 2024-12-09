@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
 
-def ping(request):
-    return HttpResponse("Pong!")
+def execute_sql(request):
+    return HttpResponse(request)
