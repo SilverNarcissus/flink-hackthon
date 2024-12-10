@@ -27,6 +27,7 @@ urlpatterns = [
 
     # interface for event stream
     path("api/es/execute_sql", csrf_exempt(es_controller.execute_sql), name="execute_sql"),
+    path("api/es/test_query", csrf_exempt(es_controller.test_query), name="test_query"),
 
     # interface for job management
 ]
