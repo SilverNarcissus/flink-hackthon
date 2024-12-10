@@ -12,10 +12,15 @@ def execute_sql(request):
             if not sql_query:
                 return JsonResponse({'error': 'No SQL query provided'}, status=400)
 
+            print(sql_query)
+
             # Submit job to flink cluster and get result
             output = es_business_logic.submit_job(sql_query)
 
             job_id = es_business_logic.extract_job_id(output)
+
+            if not job_id:
+                return JsonResponse({'error': output}, status=400)
 
             # Step 5: Return the job ID as the response
             return JsonResponse({'job_id': job_id})

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a2381f-a051-4173-a10d-b84abcae6cd5" name="Changes" comment="Add controllers">
-      <change afterPath="$PROJECT_DIR$/DjangoProject/business_logic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoProject/business_logic/es_business_logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
+    <list default="true" id="42a2381f-a051-4173-a10d-b84abcae6cd5" name="Changes" comment="Add es test query interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoProject/controllers/es_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/controllers/es_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +110,7 @@
       <workItem from="1733728699401" duration="153000" />
       <workItem from="1733728863330" duration="423000" />
       <workItem from="1733730827498" duration="867000" />
-      <workItem from="1733735676941" duration="13535000" />
+      <workItem from="1733735676941" duration="20315000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -148,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733736455931</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add es test query interface">
+      <option name="closed" value="true" />
+      <created>1733810460730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733810460730</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +161,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Add controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add controllers" />
+    <MESSAGE value="Add es test query interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add es test query interface" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DjangoProject/business_logic/es_business_logic.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
