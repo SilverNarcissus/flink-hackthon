@@ -62,8 +62,9 @@ def terminate(request, jobId):
 
 def stop(request, jobId):
     if request.method == "POST":
+        print("in")
         url = f"{flink_url}/jobs/{jobId}/stop"
-        response = requests.patch(url)
+        response = requests.post(url)
         if response.status_code == 202:
             return HttpResponse("Success")
     return HttpResponse(f"Error-{response.status_code}")
