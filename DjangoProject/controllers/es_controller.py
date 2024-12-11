@@ -1,7 +1,7 @@
 import json
 import requests
 from django.http import JsonResponse
-from business_logic import es_business_logic
+from DjangoProject.business_logic import es_business_logic
 
 
 def execute_sql(request):
