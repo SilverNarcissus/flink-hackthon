@@ -1,0 +1,16 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+V
