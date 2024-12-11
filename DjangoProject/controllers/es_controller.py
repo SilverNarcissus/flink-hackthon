@@ -1,6 +1,8 @@
 import json
+import requests
 from django.http import JsonResponse
 from business_logic import es_business_logic
+
 
 def execute_sql(request):
     if request.method == 'POST':
@@ -47,6 +49,22 @@ def test_query(request):
 
             # Step 5: Return the job ID as the response
             return JsonResponse({'result': result})
+
+        except Exception as e:
+            return JsonResponse({'error': str(e)}, status=500)
+
+    return JsonResponse({'error': 'Invalid request method'}, status=405)
+
+def get_job_overview(request, job_id):
+    if request.method == 'GET':
+        try:
+            response = requests.get('https://api.ipify.org?format=json')
+            response.raise_for_status()
+            ip_data = response.json()
+            port = 8081
+
+            # Step 5: Return the job ID as the response
+            return JsonResponse({'url': "http://{0}:{1}/#/job/running/{2}/overview".format(ip_data['ip'], port, job_id)})
 
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=500)

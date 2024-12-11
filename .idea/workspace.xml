@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a2381f-a051-4173-a10d-b84abcae6cd5" name="Changes" comment="Add es test query interface">
+    <list default="true" id="42a2381f-a051-4173-a10d-b84abcae6cd5" name="Changes" comment="Add error handling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoProject/controllers/es_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/controllers/es_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <workItem from="1733728699401" duration="153000" />
       <workItem from="1733728863330" duration="423000" />
       <workItem from="1733730827498" duration="867000" />
-      <workItem from="1733735676941" duration="20315000" />
+      <workItem from="1733735676941" duration="26076000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -152,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733810460730</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add es test query interface">
+      <option name="closed" value="true" />
+      <created>1733827922151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733827922151</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add error handling">
+      <option name="closed" value="true" />
+      <created>1733827940094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733827940094</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +179,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Add controllers" />
     <MESSAGE value="Add es test query interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add es test query interface" />
+    <MESSAGE value="Add error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add error handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
